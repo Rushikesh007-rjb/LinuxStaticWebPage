@@ -1,0 +1,601 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headerlogo{
+    background-color:#2C3E50 ;
+    display: flex;
+    justify-content: space-between;
+     padding: 0 8vw;
+     height: 10vh;
+     align-items: center;
+     position: fixed;
+     width: 100%;
+    
+
+    
+
+}
+.header1{
+       font-family: Arial, Helvetica, sans-serif;
+       color: white;
+       font-size: 14px;
+
+}
+.header2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    gap: 20px;
+}
+.hero{
+    background-color: #18BC9C;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+
+}
+.hero h2{
+   color: white;
+    font-size: 30px;
+}
+.hero img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  padding-left: 100px ;
+ 
+
+  
+  
+}
+
+.textclass{
+    display: flex;
+
+    justify-content: center;
+    gap: 10px;
+    background-color: #F7F7F7;
+    padding: 40px;
+
+
+
+}
+.textclass h6{
+ 
+
+    border: none;
+    font-size: 14px;
+
+    justify-content: center;
+     text-align: center;
+
+     
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color:#333333;
+    background-color: #fff;
+   
+
+}
+
+
+
+
+
+
+
+.glass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color:#F7F7F7;
+    padding: 60px;
+   
+   
+ 
+ 
+ 
+ }
+
+ .glass button{
+   background-color: #18BC9C;
+   border: none;
+    color: #F7F7F7;
+    height: 5vh;
+    width: 6vw;
+    text-align: center;
+
+
+ }
+
+
+ .grassover h2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:#F7F7F7;
+   font-family: inherit;
+   font-weight: 500;
+   margin: 0px;
+    
+
+
+
+ }
+
+
+
+.card-main{
+      
+      display: flex;
+      flex-wrap: wrap;
+      padding: 4vh 8vw;
+      gap: 10px;
+      background-color:  #F7F7F7;
+      
+
+      
+      
+
+
+}
+.cards{
+    width:  20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.cards img{
+       border-radius: 50%;
+
+}
+.cards:hover{
+  background-color: #18BC9C;
+
+}
+.cards card-title{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.card1 {
+
+    width:  20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.cards card-title{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.card1 img{
+    border-radius: 50%;
+
+}
+.card1:hover:hover{
+    background-color: #18BC9C;
+}
+
+.card2{
+
+    width:  20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+
+}
+.cards card-title{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.card2 img{
+    border-radius: 50%;
+
+}
+.card2:hover{
+    background-color: #18BC9C;
+}
+
+
+.card4{
+    width:  20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+.card4 img{
+    border-radius: 50%;
+
+}
+.card4:hover{
+    background-color: #18BC9C;
+  
+  }
+
+.card5{
+    width:  20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+.card5 img{
+    border-radius: 50%;
+
+}
+.card5:hover{
+    background-color: #18BC9C;
+}
+
+.card6{
+    width:  20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+.card6 img{
+    border-radius: 50%;
+
+}
+.card6:hover{
+    background-color:#18BC9C;
+}
+
+
+
+.card7{
+    width:  20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+.card7 img{
+    border-radius: 50%;
+
+}
+.card7:hover{
+    background-color:#18BC9C;
+}
+
+
+
+.card8{
+    width:  20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+.card8 img{
+    border-radius: 50%;
+
+}
+.card8:hover{
+    background-color:#18BC9C;
+}
+
+.jouerneyman {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color:  #F7F7F7;
+    padding: 60px;
+
+
+
+}
+.jouerneyman h2{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:  #F7F7F7;
+   font-family: inherit;
+   font-weight: 500;
+   margin: 20px;
+    
+}
+
+.newcard{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4vh 8vw;
+    gap: 10px;
+    background-color:  #F7F7F7;
+
+}
+.card{
+    width:  20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.card img{
+       border-radius: 50%;
+
+}
+.card:hover{
+  background-color: #18BC9C;
+
+}
+.card card-title{
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.nomad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color:  #F7F7F7;
+    padding: 60px;
+   
+
+
+}
+.nomad h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #F7F7F7;
+    font-family: inherit;
+    font-weight: 500;
+    margin: 20px;
+
+
+
+}
+
+.networkcard{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4vh 8vw;
+    gap: 10px;
+    background-color:  #F7F7F7;
+
+}
+
+.netcard{
+    width:  20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.netcard img{
+       border-radius: 50%;
+
+}
+.netcard:hover{
+  background-color: #18BC9C;
+
+}
+.netcard card-title{
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.resourse{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color:  #F7F7F7;
+    padding: 60px;
+
+
+
+}
+.resourse h2{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:  #F7F7F7;
+   font-family: inherit;
+   font-weight: 500;
+   margin: 20px;
+    
+}
+.resoursecard{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4vh 8vw;
+    gap: 10px;
+    background-color:  #F7F7F7;
+
+}
+
+.rrcard{
+    width:  20vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.rrcard img{
+       height: 20vh;
+       width: 10vw;
+
+}
+.rrcard:hover{
+  background-color: #18BC9C;
+
+}
+
+.footer{
+    display: flex;
+
+
+    gap: 40px;
+    background-color: #2C3E50;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+ 
+
+
+
+}
+.footer .footercard{
+     
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+   padding-bottom: 30px;
+   font-size: 24px;
+  
+ 
+   
+
+
+
+}
+.footer h5{
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+
+
+
+}
+footer p{
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-family: inherit;
+ text-decoration: none;
+ color: white;
+}
+.footer  button{
+   
+     text-decoration: none;
+     border: none;
+   
+
+
+}
+.footer a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+colors:-
+header background : #2C3E50
+hero background : #18BC9C
+main background color : #F7F7F7
+
+*/
